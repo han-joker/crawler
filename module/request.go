@@ -4,7 +4,7 @@ import "net/http"
 
 type Request struct {
 	httpReq *http.Request
-	depth uint32
+	depth   uint32
 }
 
 func NewRequest(httpReq *http.Request, depth uint32) *Request {

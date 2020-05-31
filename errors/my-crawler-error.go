@@ -7,14 +7,14 @@ import (
 
 const (
 	ERROR_TYPE_DOWNLOADER ErrorType = "downloader errors"
-	ERROR_TYPE_ANALYZER ErrorType = "analyzer errors"
-	ERROR_TYPE_PIPELINE ErrorType = "pipeline errors"
-	ERROR_TYPE_SCHEDULER ErrorType = "scheduler errors"
+	ERROR_TYPE_ANALYZER   ErrorType = "analyzer errors"
+	ERROR_TYPE_PIPELINE   ErrorType = "pipeline errors"
+	ERROR_TYPE_SCHEDULER  ErrorType = "scheduler errors"
 )
 
 type myCrawlerError struct {
-	errType ErrorType
-	errMsg string
+	errType    ErrorType
+	errMsg     string
 	fullErrMsg string
 }
 

@@ -4,7 +4,7 @@ import "net/http"
 
 type Response struct {
 	httpResponse *http.Response
-	depth uint32
+	depth        uint32
 }
 
 func NewResponse(httpResponse *http.Response, depth uint32) *Response {
